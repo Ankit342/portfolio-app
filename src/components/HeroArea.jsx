@@ -10,7 +10,9 @@ export const HeroArea = () => {
     //   }
     return (
         <section className={styles.wrapper}>
-            <img className={styles.profile} src="/assets/profile.png" alt="profile" />
+            <div className={styles.heroarea}>
+                <div className={styles.profile}></div>
+            {/* <img className={styles.profile} src="/assets/profile.png" alt="profile" /> */}
             <h2 className="title">Hi, I'm{' '}
             <span className={styles.typer}>
           <Typewriter
@@ -23,7 +25,7 @@ export const HeroArea = () => {
             delaySpeed={1000}
           />
         </span>
-            </h2>
+            </h2></div>
             <p className="description">
                 An aspiring web and flutter app developer looking for a new role in tech
             </p>

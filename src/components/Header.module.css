@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -45,6 +46,7 @@
 .item {
     color: #2c2851;
     cursor: pointer;
+    z-index: 1;
 }
 
 @media only screen and (max-width: 700px) {
@@ -63,9 +65,11 @@
         font-weight: bold;
         height: 100vh;
         background-color: #efeff1;
+        z-index: 2;
     }
 
     .item {
         width: 100vw;
+        z-index: 1;
     }
 }

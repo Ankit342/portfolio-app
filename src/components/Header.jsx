@@ -27,7 +27,7 @@ export const Header = () => {
         <header className={styles.wrapper}>
             <div className={styles.brand}>
                 <img className={styles.icon} src="/assets/profile.png" alt="profile" />
-                <h1 className={styles.logo}>Portfolio</h1>
+                <h1 className={styles.logo}>Ankit.dev</h1>
             </div>
             {!mobileNavigation && isMobile ? (
                 <img
