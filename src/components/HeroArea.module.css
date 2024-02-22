@@ -19,7 +19,8 @@
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid #2d2e32;
+    background-color: crimson;
+    /* border: 3px solid #2d2e32; */
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     height: 15rem;
     transition: all 1s ease-in-out;
@@ -49,7 +50,7 @@
     margin: 0 auto;
 }
 .typer{
-    color: red;
+    color: maroon;
     font-weight: bold;
 }
 .button {

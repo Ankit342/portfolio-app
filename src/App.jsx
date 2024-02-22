@@ -38,6 +38,7 @@ export default function App() {
         Let's connect
       </h1>
       <p className="description">I'm available to work!</p>
+      <button className="button">Download CV</button>
       <Contacts />
       <Footer />
     </div>
