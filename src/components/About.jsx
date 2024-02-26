@@ -8,7 +8,8 @@ export const About = () => {
                 return (
                     <div className={styles.card} key={index}>
                         <div className={styles.info}>
-                            <h1 className={styles.title}>{item.title}</h1>
+                            <h2 className={styles.title}>{item.title}</h2>
+                            <p className={styles.name}>{item.name} | {item.loc}</p>
                             <p className={styles.description}>{item.duration}</p>
                         </div>
                         <div className={styles.info}>

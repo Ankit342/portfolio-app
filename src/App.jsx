@@ -38,7 +38,9 @@ export default function App() {
         Let's connect
       </h1>
       <p className="description">I'm available to work!</p>
-      <button className="button">Download CV</button>
+      <a href="https://drive.google.com/file/d/1fGopAbdhZ7RGu9qkzKpnqK0vWa7c4nUP/view?usp=sharing">
+        <button className="button">Download CV</button>
+        </a>
       <Contacts />
       <Footer />
     </div>

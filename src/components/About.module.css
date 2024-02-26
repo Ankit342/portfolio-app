@@ -13,14 +13,18 @@
 }
 
 .info {
-    padding: 10px;
+    padding: 8px;
     display: grid;
     place-items: center;
 }
-
+.name{
+    color: #85819f;
+    margin-bottom: 5px;
+}
 .icon {
     height: 100px;
     height: 100px;
+    mix-blend-mode: multiply;
 }
 
 .title {

@@ -16,6 +16,7 @@
     animation: morph 8s ease-in-out infinite;
     text-align: center;
     background-image: url(/assets/profile.png);
+    mix-blend-mode: multiply;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,8 +51,11 @@
     margin: 0 auto;
 }
 .typer{
-    color: maroon;
+    color: crimson;
     font-weight: bold;
+    /* text-shadow: 0px 0px 10px crimson,
+                 0px 0px 20px tomato,
+                 0px 0px 40px orange; */
 }
 .button {
     width: 100%;
